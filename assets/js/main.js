@@ -26,7 +26,7 @@ var myRound = Math.round(89.279);
 var myRandom = Math.random() * 10;
 console.log(myRandom);
 var myPow = Math.pow(3, 5);
-strObj = {str: 'Мама мыла раму, рама мыла маму'};
+var strObj = {str: 'Мама мыла раму, рама мыла маму'};
 strObj.length = strObj.str.length;
 var isRamaPos = strObj.str.indexOf('рама');
 console.log(isRamaPos);
